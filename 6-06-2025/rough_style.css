@@ -1,0 +1,25 @@
+p.welcome{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    text-transform:uppercase;
+}
+.box{
+    width:200px;
+    height:100px;
+    border:5px solid yellow;
+    padding:20px;
+    margin:20px;
+    background-color: #f0f0f0;
+    outline: purple solid 2px;
+    
+}
+.contentbox{
+    box-sizing: content-box;
+    background-color: green;
+    text-decoration:line-through;
+}
+.borderbox{
+    box-sizing: border-box;
+    background-color: blue;
+}

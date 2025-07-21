@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    color: black;
+    margin:20px;
+}
+.heading:hover::before{
+    content:"🌈";
+}
+.heading::after{
+    content:"🦋"
+}
+.outer{
+    width:80vw;
+    height:250vh;
+    border:2px solid black;
+    margin:150px auto;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+.inner{
+    width:50vw;
+    height:150vh;
+    border:2px solid blue;
+    margin:auto; 
+}
+.inneroinner{
+    width:30vw;
+    height:100vh;
+    margin:auto;
+    border:2px solid green;
+}
+.box{
+    width:100px;
+    height: 100px;
+    color: white;
+}
+.absolute{
+    background-color: rgb(65, 65, 8);
+    position:absolute;
+    top: 10rem;
+    left:2rem;
+}
+.relative{
+    background-color: rgb(196, 58, 81);
+    position:relative;
+    top:20px;
+    left:25rem;
+}
+.relative:hover{
+    background-color: rgb(180, 76, 94);
+    transform:Scale(150%,150%);
+}
+.fixed{
+    background-color: rgb(4, 49, 43);
+    position: fixed;
+    top:12rem;
+    left:2rem;
+    z-index: 1;
+}
+.sticky{
+    background-color: rgb(45, 6, 202);
+    position:sticky;
+    top:50px;
+}
+.relative1{
+    background-color: orangered;
+    top:-190px;
+    position: relative;
+}
+.unordered{
+    list-style-type: none;
+    text-align: center;
+}
+.unordered li::before{
+    content: "✨"
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;;
+    color: black;
+    font-weight: bold;
+}
+.search{
+    width:200px;
+    height: 30px;
+    margin: 30px auto;
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    right:12.5rem;
+    top:0.25em;
+    left:0.5rem;
+}
+.search-input{
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
